@@ -112,7 +112,7 @@ void handle_minute_tick(AppContextRef ctx, PebbleTickEvent *t) {
   	full_day_text = "Tuesday";
   }
   
-  text_layer_set_text(&text_day_layer, day_text);
+  text_layer_set_text(&text_day_layer, full_day_text);
  
  
   
