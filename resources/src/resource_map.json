@@ -16,6 +16,48 @@
         
         {
         "type": "font",
+        "defName": "FONT_ALIEN_ENCOUNTER_REGULAR_21",
+        "file": "fonts/Alien-Encounters-Regular.ttf"
+        },
+        
+        {
+        "type": "font",
+        "defName": "FONT_ALIEN_ENCOUNTER_R_20",
+        "file": "fonts/Alien-Encounters-Regular.ttf"
+        }, 
+        
+       {
+        "type": "font",
+        "defName": "FONT_ALIEN_ENCOUNTER_B_20",
+        "file": "fonts/Alien-Encounters-Bold.ttf"
+        }, 
+        
+        {
+        "type": "font",
+        "defName": "FONT_ALIEN_ENCOUNTER_R_25",
+        "file": "fonts/Alien-Encounters-Regular.ttf"
+        },
+        
+        {
+        "type": "font",
+        "defName": "FONT_ALIEN_ENCOUNTER_R_35",
+        "file": "fonts/Alien-Encounters-Regular.ttf"
+        },
+        
+        {
+        "type": "font",
+        "defName": "FONT_ALIEN_ENCOUNTER_R_45",
+        "file": "fonts/Alien-Encounters-Regular.ttf"
+        },
+        
+                {
+        "type": "font",
+        "defName": "FONT_ALIEN_ENCOUNTER_R_55",
+        "file": "fonts/Alien-Encounters-Regular.ttf"
+        },
+        
+        {
+        "type": "font",
         "characterRegex": "[:0-9]",
         "defName": "FONT_ROBOTO_BOLD_SUBSET_49",
         "file": "fonts/Roboto-Bold.ttf"
