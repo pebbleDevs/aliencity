@@ -47,16 +47,16 @@ void handle_init(AppContextRef ctx) {
   text_layer_init(&text_name_layer, window.layer.frame);
   text_layer_set_text_color(&text_name_layer, GColorBlack);
   text_layer_set_background_color(&text_name_layer, GColorClear);
-  layer_set_frame(&text_name_layer.layer, GRect(35, 0, 90, 168-145));
-  text_layer_set_font(&text_name_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ROBOTO_CONDENSED_21)));
+  layer_set_frame(&text_name_layer.layer, GRect(20, 0, 90, 168-145));
+  text_layer_set_font(&text_name_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ALIEN_ENCOUNTER_R_20)));
   layer_add_child(&window.layer, &text_name_layer.layer);
   
    //Day label
   text_layer_init(&text_day_layer, window.layer.frame);
   text_layer_set_text_color(&text_day_layer, GColorBlack);
   text_layer_set_background_color(&text_day_layer, GColorClear);
-  layer_set_frame(&text_day_layer.layer, GRect(55, 90, 144-20, 168-20));
-  text_layer_set_font(&text_day_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ROBOTO_CONDENSED_21)));
+  layer_set_frame(&text_day_layer.layer, GRect(15, 90, 144-20, 168-20)); //35 for full name, 55 for 3 letters name
+  text_layer_set_font(&text_day_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ALIEN_ENCOUNTER_R_25)));
   layer_add_child(&window.layer, &text_day_layer.layer);
 
 // date label
@@ -71,8 +71,8 @@ void handle_init(AppContextRef ctx) {
   text_layer_init(&text_time_layer, window.layer.frame);
   text_layer_set_text_color(&text_time_layer, GColorBlack);
   text_layer_set_background_color(&text_time_layer, GColorClear);  
-  layer_set_frame(&text_time_layer.layer, GRect(7, 30, 144-7, 168-40));
-  text_layer_set_font(&text_time_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ROBOTO_BOLD_SUBSET_49)));
+  layer_set_frame(&text_time_layer.layer, GRect(24, 20, 144-7, 168-40));
+  text_layer_set_font(&text_time_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_ALIEN_ENCOUNTER_R_45)));
   layer_add_child(&window.layer, &text_time_layer.layer);
 
 

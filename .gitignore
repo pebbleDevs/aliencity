@@ -116,3 +116,27 @@ build/pebble-app.map
 build/pebble-app.raw.bin
 
 build/src/aliencity.c.1.o
+
+build/resources/src/fonts/Alien-Encounters-Regular.ttf.FONT_ALIEN_ENCOUNTER_BI_35.pfo
+
+build/resources/src/fonts/Alien-Encounters-Regular.ttf.FONT_ALIEN_ENCOUNTER_BI_45.pfo
+
+build/resources/src/fonts/Alien-Encounters-Regular.ttf.FONT_ALIEN_ENCOUNTER_REGULAR_21.pfo
+
+build/resources/src/fonts/Alien-Encounters-Regular.ttf.FONT_ALIEN_ENCOUNTER_R_20.pfo
+
+build/resources/src/fonts/Alien-Encounters-Regular.ttf.FONT_ALIEN_ENCOUNTER_R_25.pfo
+
+build/resources/src/fonts/Alien-Encounters-Regular.ttf.FONT_ALIEN_ENCOUNTER_R_35.pfo
+
+build/resources/src/fonts/Alien-Encounters-Regular.ttf.FONT_ALIEN_ENCOUNTER_R_45.pfo
+
+build/resources/src/fonts/Alien-Encounters-Solid-Italic.ttf.FONT_ALIEN_ENCOUNTER_BI_21.pfo
+
+build/resources/src/fonts/Alien-Encounters-Solid-Italic.ttf.FONT_ALIEN_ENCOUNTER_BI_25.pfo
+
+build/resources/src/fonts/Alien-Encounters-Solid-Italic.ttf.FONT_ALIEN_ENCOUNTER_BI_35.pfo
+
+build/resources/src/fonts/Alien-Encounters-Solid-Italic.ttf.FONT_ALIEN_ENCOUNTER_BI_45.pfo
+
+*.pfo
