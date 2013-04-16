@@ -86,3 +86,21 @@ build/c4che/_cache.py
 build/c4che/build.config.py
 
 build/config.log
+
+build/.wafpickle-98
+
+build/app_resources.pbpack
+
+build/resources/src/app_resources.pbpack.data
+
+build/resources/src/app_resources.pbpack.manifest
+
+build/resources/src/app_resources.pbpack.table
+
+build/resources/src/fonts/Roboto-Bold.ttf.FONT_ROBOTO_BOLD_SUBSET_49.pfo
+
+build/resources/src/fonts/Roboto-Condensed.ttf.FONT_ROBOTO_CONDENSED_21.pfo
+
+build/resources/src/images/menu_icon_simplicity.png.pbi
+
+build/src/resource_ids.auto.h
